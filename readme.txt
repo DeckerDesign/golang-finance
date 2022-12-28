@@ -1,0 +1,1 @@
+spreadsheet.exe will ask the user for input in the format "expense name amount", and will add a new row to the sheet for each input entered. When the user enters an empty value, the program will stop asking for input and will save the spreadsheet to the file "Expenses.xlsx".
