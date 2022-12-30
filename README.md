@@ -1,4 +1,4 @@
-#*golang-finance*
+**golang-finance**
 
 Welcome to golang-finance, a Go program for managing your budget. This program allows you to enter your expenses and amounts, and then updates a budget spreadsheet (budget.xlsx) with this information.
 
