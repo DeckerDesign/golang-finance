@@ -6,22 +6,20 @@ Getting Started
 
 To use golang-finance, you will need to have Go and the github.com/tealeg/xlsx library installed on your system. You can install Go by following the instructions here. To install the xlsx library, run the following command:
 
-Copy code
-go get github.com/tealeg/xlsx
+```Copy codego get github.com/tealeg/xlsx```
+
 Once you have Go and the xlsx library installed, you can clone this repository and run the program:
 
-Copy code
-git clone https://github.com/DeckerDesign/golang-finance.git
-cd golang-finance
-go run main.go
+```Copy codegit clone https://github.com/DeckerDesign/golang-finance.git```
+```cd golang-finance```
+```go run main.go```
 The program will prompt you to enter the names of your expenses and the amounts. When you are done, enter done to save the changes to the budget.xlsx file.
 
 Duplicating the Data
 
 To duplicate the data in the budget spreadsheet, you can run the duplicate.go program:
 
-Copy code
-go run duplicate.go
+```Copy code go run duplicate.go```
 This program will create a new sheet in the budget.xlsx file called "Table", and will paste the data from the original sheet 12 times, going down. This will allow you to easily see a summary of your budget data.
 
 Viewing the Data
