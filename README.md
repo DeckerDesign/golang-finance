@@ -6,11 +6,13 @@ Getting Started
 
 To use golang-finance, you will need to have Go and the github.com/tealeg/xlsx library installed on your system. You can install Go by following the instructions here. To install the xlsx library, run the following command:
 
-```Copy codego get github.com/tealeg/xlsx```
+Copy code
+```go get github.com/tealeg/xlsx```
 
 Once you have Go and the xlsx library installed, you can clone this repository and run the program:
 
-```Copy codegit clone https://github.com/DeckerDesign/golang-finance.git```
+Copy code
+```git clone https://github.com/DeckerDesign/golang-finance.git```
 ```cd golang-finance```
 ```go run main.go```
 The program will prompt you to enter the names of your expenses and the amounts. When you are done, enter done to save the changes to the budget.xlsx file.
