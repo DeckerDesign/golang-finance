@@ -16,7 +16,9 @@ Copy code
 
 
 ```git clone https://github.com/DeckerDesign/golang-finance.git```
+
 ```cd golang-finance```
+
 ```go run main.go```
 The program will prompt you to enter the names of your expenses and the amounts. When you are done, enter done to save the changes to the budget.xlsx file.
 
@@ -24,7 +26,9 @@ Duplicating the Data
 
 To duplicate the data in the budget spreadsheet, you can run the duplicate.go program:
 
-```Copy code go run duplicate.go```
+Copy code 
+
+```go run duplicate.go```
 This program will create a new sheet in the budget.xlsx file called "Table", and will paste the data from the original sheet 12 times, going down. This will allow you to easily see a summary of your budget data.
 
 Viewing the Data
